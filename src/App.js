@@ -52,8 +52,8 @@ const App = () => {
   }
 
   return (
-    <div className="bg-blue-800">
-      <div className="w-full md:max-w-[60%] mx-auto shadow p-10 bg-blue-400 border-4">
+    <div className="bg-blue-400">
+      <div className="w-full md:max-w-[60%] mx-auto shadow p-10 bg-blue-800 border-4">
       <marquee behavior="" direction="" className="text-2xl bg-slate-200">Kindly Fill Your Details Properly</marquee>
       <div className="bg-blue-200 w-full h-[1px] mt-[8px]"></div>
       <br />
