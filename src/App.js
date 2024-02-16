@@ -74,7 +74,7 @@ const App = () => {
           value={formData.firstName}
           name="firstName"
           id="firstName"
-          placeholder="Priyansh"
+          placeholder="First Name"
           className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
         />
         <br />
@@ -87,7 +87,7 @@ const App = () => {
             value={formData.lastName}
             name="lastName"
             id="lastName"
-            placeholder="Patel"
+            placeholder="Last Name"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -101,7 +101,7 @@ const App = () => {
             value={formData.email}
             id="email"
             name="email"
-            placeholder="priyansh.patel@gmail.com"
+            placeholder="abc@company.com"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -130,7 +130,7 @@ const App = () => {
 
         <label
           htmlFor=""
-          className="dark:text-black leading-6 text-sm font-medium"
+          className="dark:text-black leading-6 text-sm font-medium "
         >
           Street address <br />
           <input
@@ -139,7 +139,7 @@ const App = () => {
             name="street"
             onChange={changeHandler}
             value={formData.street}
-            placeholder="16 Main Street"
+            placeholder="Churk"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -156,7 +156,7 @@ const App = () => {
             name="city"
             onChange={changeHandler}
             value={formData.city}
-            placeholder="Mandsaur"
+            placeholder="Sonbhadra"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -173,7 +173,7 @@ const App = () => {
             name="state"
             onChange={changeHandler}
             value={formData.state}
-            placeholder="Madhaya Pradesh"
+            placeholder="Uttar Pradesh"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
@@ -191,16 +191,14 @@ const App = () => {
             name="postalCode"
             onChange={changeHandler}
             value={formData.postalCode}
-            placeholder="458001"
+            placeholder="231206"
             className="w-full border mt-2 rounded-md  p-2 text-gray-900 shadow-sm ring-1 placeholder:text-gray-400 placeholder:font-normal"
           />
         </label>
         <br />
 
-        <fieldset className="mb-10
-        ">
+        <fieldset className="mb-10 ">
           <legend className="text-sm font-semibold leading-6 text-gray-900">By Email</legend>
-          <br />
           <div className="mt-4 space-y-2">
             <div className="flex">
               <input
