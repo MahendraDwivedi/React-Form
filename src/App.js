@@ -52,8 +52,8 @@ const App = () => {
   }
 
   return (
-    <div className="bg-blue-400">
-      <div className="w-full md:max-w-[60%] mx-auto shadow p-10 bg-blue-800 border-4">
+    <div className="bg-gradient-to-r from-gray-900 from-2% via-sky-400 via-30% to-gray-900 to-98% ...">
+      <div className="w-full md:max-w-[60%] mx-auto shadow p-10 bg-gradient-to-b from-gray-800 from-2% via-gray-500 via-30% to-gray-700 to-80% ... border-4">
       <marquee behavior="" direction="" className="text-2xl bg-slate-200">Kindly Fill Your Details Properly</marquee>
       <div className="bg-blue-200 w-full h-[1px] mt-[8px]"></div>
       <br />
@@ -198,7 +198,7 @@ const App = () => {
         <br />
 
         <fieldset className="mb-10 ">
-          <legend className="text-sm font-semibold leading-6 text-gray-900">By Email</legend>
+          <legend className="text-sm font-semibold leading-6 text-black">By Email</legend>
           <div className="mt-4 space-y-2">
             <div className="flex">
               <input
@@ -210,7 +210,7 @@ const App = () => {
                 className="h-4 w-4 mt-1 rounded"
               />
               <div className="flex flex-col ml-3">
-                <label htmlFor="comments" className="text-sm font-semibold leading-6 text-gray-900">Comments</label>
+                <label htmlFor="comments" className="text-sm font-semibold leading-6  text-black">Comments</label>
                 <p className="text-white">Get notified when someones posts a comment on a posting.</p>
               </div>
             </div>
@@ -224,7 +224,7 @@ const App = () => {
                 className="h-4 w-4 mt-1 rounded"
               />
               <div className="flex flex-col ml-3">
-                <label htmlFor="candidates" className="text-sm font-semibold leading-6 text-gray-900">Candidates</label>
+                <label htmlFor="candidates" className="text-sm font-semibold leading-6  text-black">Candidates</label>
                 <p className="text-white">Get notified when a candidate applies for a job.</p>
               </div>
             </div>
@@ -241,7 +241,7 @@ const App = () => {
               <div className="flex flex-col ml-3">
                 <label
                   htmlFor="offers"
-                  className="text-gray-900 leading-6 text-sm font-medium"
+                  className=" text-black leading-6 text-sm font-medium"
                 >
                   Offers
                 </label>
@@ -252,7 +252,7 @@ const App = () => {
         </fieldset>
 
         <fieldset className="mt-10">
-          <legend className="text-sm font-semibold leading-6 text-gray-900">Push Notification</legend>
+          <legend className="text-sm font-semibold leading-6  text-black">Push Notification</legend>
           <p className="text-white">These are delivered via SMS to your mobile phone.</p>
 
           <div className="mt-4 space-y-2">
@@ -267,7 +267,7 @@ const App = () => {
               />
               <label
                 htmlFor="pushEverything"
-                className="text-gray-900 leading-6 text-sm font-medium"
+                className=" text-black leading-6 text-sm font-medium"
               >
                 Everything
               </label>
@@ -282,7 +282,7 @@ const App = () => {
               />
               <label
                 htmlFor="pushEmail"
-                className="text-gray-900 leading-6 text-sm font-medium"
+                className=" text-black leading-6 text-sm font-medium"
               >
                 Same as email
               </label>
@@ -297,7 +297,7 @@ const App = () => {
               />
               <label
                 htmlFor="pushNothing"
-                className="text-gray-900 leading-6 text-sm font-medium"
+                className=" text-black leading-6 text-sm font-medium"
               >
                 No push notification
               </label>
